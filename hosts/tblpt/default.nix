@@ -15,9 +15,27 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
+  # Keep the ESP from filling up. The nixos-hardware module sets the equivalent
+  # limit for GRUB, which this machine does not use.
+  boot.loader.systemd-boot.configurationLimit = 10;
+
   # No kernelPackages override: the default kernel of the 26.05 release is the
   # combination the NVIDIA driver is actually tested against. linuxPackages_latest
   # plus a proprietary driver is how kernel/driver mismatches start.
+
+  # Graphics come from nixos-hardware's dell-xps-15-7590-nvidia module, wired in
+  # from flake.nix. It brings the proprietary NVIDIA driver with PRIME offload
+  # (Intel drives the display, the GTX 1650 stays powered down until asked),
+  # fine-grained NVIDIA power management, the open kernel modules for Turing,
+  # mem_sleep_default=deep, thermald and fwupd.
+  #
+  # Run something on the dedicated GPU:  nvidia-offload <command>
+  #
+  # If a reboot after this lands on a black screen or nvidia-smi cannot talk to
+  # the driver, boot the previous generation from the menu and try the closed
+  # kernel modules instead of the open ones:
+  #
+  #   hardware.nvidia.open = lib.mkForce false;
 
   networking.hostName = "tblpt";
   networking.networkmanager.enable = true;
