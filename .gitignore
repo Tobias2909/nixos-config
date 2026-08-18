@@ -1,0 +1,19 @@
+# Never publish: identifying details, credentials, certificates.
+# This repo is public — see docs/HANDOVER.md for what was deliberately left out.
+PRIVATE-notes.local.md
+*.local.md
+*.p12
+*.pem
+*.key
+*.asc
+id_*
+*.kdbx
+raw/nm-connections.txt
+docs/raw/nm-connections.txt
+raw/ssh-config*
+docs/raw/ssh-config*
+memory/
+
+# Build artifacts
+result
+result-*

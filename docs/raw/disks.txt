@@ -1,0 +1,4 @@
+NAME          SIZE FSTYPE   TYPE MOUNTPOINT                        UUID
+nvme0n1     476,9G          disk                                   
+├─nvme0n1p1   300M vfat     part /boot/efi                         93E6-1A93
+└─nvme0n1p2 476,6G ext4     part /                                 72d7ad66-b5c4-4e08-9f4e-5067ccf1f5f4

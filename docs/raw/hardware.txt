@@ -1,0 +1,58 @@
+ Static hostname: tblpt
+       Icon name: computer-laptop
+         Chassis: laptop 💻
+Operating System: Ubuntu 26.04 LTS
+          Kernel: Linux 7.0.0-29-generic
+    Architecture: x86-64
+ Hardware Vendor: Dell Inc.
+  Hardware Model: XPS 15 7590
+    Hardware SKU: 0905
+Hardware Version: A00
+Firmware Version: 1.42.0
+    Firmware Age: 8month 1w 1d
+
+PRETTY_NAME="Ubuntu 26.04 LTS"
+NAME="Ubuntu"
+VERSION_ID="26.04"
+VERSION="26.04 LTS (Resolute Raccoon)"
+VERSION_CODENAME=resolute
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=resolute
+LOGO=ubuntu-logo
+
+Linux tblpt 7.0.0-29-generic #29-Ubuntu SMP PREEMPT_DYNAMIC Fri Jul 17 20:52:35 UTC 2026 x86_64 GNU/Linux
+
+Architecture:                            x86_64
+CPU(s):                                  12
+Model name:                              Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+CPU(s) scaling MHz:                      69%
+
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       3,0Gi       4,3Gi       302Mi       8,6Gi        12Gi
+Swap:          511Mi          0B       511Mi
+
+00:02.0 VGA compatible controller [0300]: Intel Corporation CoffeeLake-H GT2 [UHD Graphics 630] [8086:3e9b]
+	DeviceName:  Onboard IGD
+	Subsystem: Dell Device [1028:0905]
+	Kernel driver in use: i915
+--
+01:00.0 3D controller [0302]: NVIDIA Corporation TU117M [GeForce GTX 1650 Mobile / Max-Q] [10de:1f91] (rev a1)
+	Subsystem: Dell Device [1028:0905]
+	Kernel driver in use: nvidia
+	Kernel modules: nvidiafb, nouveau, nvidia_drm, nvidia
+--
+3b:00.0 Network controller [0280]: Intel Corporation Wi-Fi 6 AX200 [8086:2723] (rev 1a)
+	Subsystem: Rivet Networks Killer Wi-Fi 6 AX1650x (AX200NGW) [1a56:1654]
+	Kernel driver in use: iwlwifi
+	Kernel modules: iwlwifi
+3c:00.0 Unassigned class [ff00]: Realtek Semiconductor Co., Ltd. RTS525A PCI Express Card Reader [10ec:525a] (rev 01)
+--
+3d:00.0 Non-Volatile memory controller [0108]: Samsung Electronics Co Ltd NVMe SSD Controller SM981/PM981/PM983 [144d:a808]
+	Subsystem: Samsung Electronics Co Ltd SSD 970 EVO/PRO [144d:a801]
+	Kernel driver in use: nvme
+	Kernel modules: nvme

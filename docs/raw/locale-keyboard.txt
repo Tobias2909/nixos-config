@@ -1,0 +1,28 @@
+System Locale: LANG=en_US.UTF-8
+               LC_NUMERIC=de_DE.UTF-8
+               LC_TIME=de_DE.UTF-8
+               LC_MONETARY=de_DE.UTF-8
+               LC_PAPER=de_DE.UTF-8
+               LC_NAME=de_DE.UTF-8
+               LC_ADDRESS=de_DE.UTF-8
+               LC_TELEPHONE=de_DE.UTF-8
+               LC_MEASUREMENT=de_DE.UTF-8
+               LC_IDENTIFICATION=de_DE.UTF-8
+    VC Keymap: (unset)
+   X11 Layout: de
+    X11 Model: pc105
+
+               Local time: Di 2026-08-18 15:41:15 CEST
+           Universal time: Di 2026-08-18 13:41:15 UTC
+                 RTC time: Di 2026-08-18 13:41:15
+                Time zone: Europe/Berlin (CEST, +0200)
+
+# KEYBOARD CONFIGURATION FILE
+
+# Consult the keyboard(5) manual page.
+
+XKBMODEL="pc105"
+XKBLAYOUT="de"
+XKBVARIANT=""
+BACKSPACE="guess"
+XKBOPTIONS=""

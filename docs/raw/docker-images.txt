@@ -1,0 +1,10 @@
+verteilter-schuhladen-inventory-service:latest
+verteilter-schuhladen-order-service:latest
+verteilter-schuhladen-payment-service:latest
+verteilter-schuhladen-cart-service:latest
+verteilter-schuhladen-frontend:latest
+postgres:15-alpine
+node:lts
+nginx:latest
+mcr.microsoft.com/dotnet/sdk:9.0
+mcr.microsoft.com/dotnet/aspnet:9.0

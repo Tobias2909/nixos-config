@@ -1,0 +1,7 @@
+app.zen_browser.zen	Zen	flathub
+com.github.IsmaelMartinez.teams_for_linux	Portal for Teams	flathub
+com.github.k4zmu2a.spacecadetpinball	Space Cadet Pinball	flathub
+com.rtosta.zapzap	ZapZap	flathub
+de.easyroam.easyroam	easyroam	flathub
+io.github.gopher64.gopher64	Gopher64	flathub
+io.missioncenter.MissionCenter	Mission Center	flathub
