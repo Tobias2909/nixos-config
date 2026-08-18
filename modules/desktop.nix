@@ -14,6 +14,9 @@
     chromium
     floorp-bin # `floorp` was renamed: 12.x cannot be built from source
 
+    # Office
+    onlyoffice-desktopeditors
+
     # Media
     vlc
     gimp
@@ -21,6 +24,11 @@
     # Chat
     discord
     teams-for-linux
+
+    # VPN. Replaces the Private Internet Access client, which shipped a vendor
+    # blob in /opt and has no clean route on NixOS. The Proton app drives
+    # NetworkManager, so nothing else is needed here.
+    proton-vpn
 
     # System tools
     gparted
