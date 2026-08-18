@@ -29,10 +29,5 @@
 
     gammastep # night colour shift
     nordzy-icon-theme # the icon theme cloned by hand on the old system
-
-    # Digital vibrance under Wayland, where nvidia-settings cannot do it.
-    # Ships one binary per driver release and its newest is 610.43.02, so it may
-    # not accept the 610.57.04 driver installed here.
-    nvibrant
   ];
 }
