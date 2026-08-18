@@ -8,6 +8,12 @@
 {
   imports = [
     ./hardware-configuration.nix
+
+    ../../modules/uni.nix
+    ../../modules/shell.nix
+    ../../modules/dev.nix
+    ../../modules/desktop.nix
+    ../../modules/gaming.nix
   ];
 
   # Bootloader. systemd-boot keeps a kernel + initrd per generation in the ESP,
@@ -93,10 +99,11 @@
   users.users.tblpt = {
     isNormalUser = true;
     description = "tblpt";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" ];
+    shell = pkgs.zsh; # configured in modules/shell.nix
     # Per-user packages stay empty on purpose: everything installed on this machine
-    # goes into environment.systemPackages below, so one list answers "what is on
-    # this laptop?".
+    # goes into environment.systemPackages, here or in modules/, so one list per
+    # area answers "what is on this laptop?".
   };
 
   programs.firefox.enable = true;
